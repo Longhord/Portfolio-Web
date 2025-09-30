@@ -12,7 +12,7 @@ export const HeroSection = () => {
                     <div className="profile-tilt">
                         <div className="profile-card animate-float">
                             <img
-                                src="public/projects/profile.jpg"
+                                src="/projects/ifan.jpg"
                                 alt="Ifan Gustian"
                                 className="profile-image"
                             />

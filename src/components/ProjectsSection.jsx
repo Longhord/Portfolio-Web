@@ -16,7 +16,7 @@ const projects = [
         title: "Gemini Clone",
         description: "A custom-built AI-powered chatbot application inspired by Google Gemini, designed to provide interactive and intelligent conversations.",
         image: "/projects/GeminiClone.PNG",
-        tags: ["Javascript", "Tailwind"],
+        tags: ["React", "Javascript", "Tailwind"],
         demoUrl: "https://gemini-clone-coral-five.vercel.app/",
         githubUrl: "https://github.com/Longhord/Gemini-clone",
     },
@@ -26,8 +26,8 @@ const projects = [
         description: "A personal portfolio website showcasing my skills, projects, and contact information.",
         image: "/projects/portfolioweb.PNG",
         tags: ["React", "Tailwind", "Javascript"],
-        demoUrl: "#",
-        githubUrl: "#",
+        demoUrl: "https://ifangustian.netlify.app/",
+        githubUrl: "https://github.com/Longhord/Gemini-clone",
     }
 ]
 
@@ -87,7 +87,7 @@ export const ProjectSections = () => {
                 ref={buttonRef}
                 className={`text-center mt-12 scroll-fade-in ${buttonVisible ? 'visible' : ''}`}
             >
-                <a className="cosmic-button w-fit flex items-center mx-auto gap-2" target="_blank" href="github.com/longhord">
+                <a className="cosmic-button w-fit flex items-center mx-auto gap-2" target="_blank" rel="noopener noreferrer" href="https://github.com/Longhord">
                     Check My Github <ArrowRight size={16} />
                 </a>
             </div>
